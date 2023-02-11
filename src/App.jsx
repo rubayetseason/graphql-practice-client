@@ -27,9 +27,9 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <div>
+    <ApolloProvider client={client}>
       <h1>Practice GraphQL client part with APOLLO Client.</h1>
-    </div>
+    </ApolloProvider>
   );
 }
 
